@@ -1,5 +1,10 @@
 # IBM-Project-19179-1659694077
-Customer Care Registry
+
+🛃CUSTOMER CARE REGISTRY
+
+TECHNOLOGY : CLOUD APPLICATION DEVELOPMENT
+
+TEAM ID : PNT2022TMID16150
 
 📚PROJECT DESCRIPTION:
 
@@ -8,3 +13,4 @@ This Application has been developed to help the customer in processing their com
 ADMIN : The main role and responsibility of the admin are to take care of the whole process. Starting from Admin login followed by the agent creation and assigning the customer's complaints. Finally, He will be able to track the work assigned to the agent and a notification will be sent to the customer.
 
 USER : They can register for an account. After the login, they can create the complaint with a description of the problem they are facing. Each user will be assigned with an agent. They can view the status of their complaint.
+
