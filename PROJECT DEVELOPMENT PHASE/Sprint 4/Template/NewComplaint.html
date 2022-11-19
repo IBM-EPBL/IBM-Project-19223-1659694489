@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Underline Link Hover</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.nav{
+    display: flex;
+    padding: 20px;
+    background-color:#2874F0 ;
+    justify-content: space-around;
+}
+.nav li a{
+    color:whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+.nav li{
+    list-style: none;
+}
+.nav li a:hover{
+
+    background-color: whitesmoke;
+    color:#2874F0 ;
+
+    border-radius: 5px;
+}
+
+</style>
+<br>
+    <nav class="nav">
+       <li><a href="/UserHome">Home</a></li>
+					<li><a href="/NewComplaint" >NewComplaint</a></li>
+<li><a href="/UserComplaint" >ComplaintInfo</a></li>
+					 <li><a href="/">Logout</a></li>
+    </nav>
+   <img src="static/images/cus.jpg" alt="" height="500px" width="100%"
+style="background-color:lightgray;">
+</br></br></br>
+
+
+
+<!-- header -->
+
+<!-- //banner -->
+<div class="about all_pad">
+	<div class="container">
+		<h3 class="title">New Complaint Info</h3>
+
+		<form id="form1" name="form1" method="post" action="/newcom">
+              <table width="35%" border="0" align="center">
+
+    <tr>
+          <td></td>
+    </tr>
+    <tr>
+      <td width="45%" height="48">UserName</td>
+      <td width="55%"><input name="name" type="text" id="name"  value={{uname}} required />
+      </td>
+    </tr>
+
+
+
+	   <tr>
+      <td height="50">Complaint Info</td>
+      <td><textarea name="com" id="com" required></textarea></td>
+       </tr>
+
+
+
+	<tr>
+      <td height="72">&nbsp;</td>
+      <td><input name="btn" type="submit" id="btn" value="Submit" />
+      <input type="reset" name="Submit2" value="Reset" /></td>
+    </tr>
+  </table>
+            </form>
+
+	</div>
+</div>
+
+<!-- contact -->
+</br></br></br>
+<footer style="padding:20px;background-color: #2874F0;">
+	<p style="text-align: center;color:white;">Copyright to custo@gmail.com</p>
+</footer>
+</body>
+</html></html>
